@@ -1,0 +1,32 @@
+.ase-export-showroom-modal {
+  border: none;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  outline: 0;
+  overflow: hidden;
+  position: static;
+  right: 0;
+  top: 50%;
+  -webkit-transform-origin: 50% 25%;
+  -ms-transform-origin: 50% 25%;
+  transform-origin: 50% 25%;
+  width: 100%;
+  z-index: 50;
+
+  .CodeMirror {
+    font-family: inherit;
+    font-size: 0.92rem;
+    -webkit-font-smoothing: initial;
+    height: 70vh;
+    padding: 1rem 0.25rem;
+
+    .CodeMirror-code {
+      line-height: 1.4;
+    }
+
+    .cm-comment {
+      color: #aaaaaa;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "product360",
+  "name": "Valentino Purse ed. 2020",
+  "price": "$450",
+  "cta": {
+    "label": "View in store",
+    "link": "#",
+    "color": "#FFF"
+  },
+  "location": {
+    "yaw": -0.24,
+    "pitch": 0.01
+  }
+}

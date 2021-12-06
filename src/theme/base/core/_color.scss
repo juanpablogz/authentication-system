@@ -1,0 +1,44 @@
+/************************************************/
+/*         360 STUDIO EDITOR COLOR SYSTEM       */
+/************************************************/
+/* prettier-ignore */
+
+:root {
+
+  /* Brand colors */
+  --light-primary:    #D7EBFE;
+  --default-primary:  #0364C6;
+  --dark-primary:     #023D79;
+
+  /* Grey colors */
+  --white:              #FFFFFF;
+  --default-snow:       #F9FAFC;
+  --dark-snow:          #EFF2F7;
+  --extra-dark-snow:    #E5E9F2;
+  --default-smoke:      #E0E6ED;
+  --dark-smoke:         #D3DCE6;
+  --extra-dark-smoke:   #C0CCDA;
+  --light-slate:        #6D87A4;
+  --medium-slate:       #445B76;
+  --default-slate:      #33475B;
+  --black:              #000000;
+
+  /* UI Colors */
+  --light-warning:      #FAEFD0;
+  --default-warning:    #E5A800;
+  --dark-warning:       #BC8A00;
+  --light-positive:     #E4F6EF;
+  --default-positive:   #4BC593;
+  --dark-positive:      #3EA279;
+  --light-negative:     #FDE8E6;
+  --default-negative:   #F95849;
+  --dark-negative:      #CC493C;
+  --light-info:         #DCEAFB;
+  --default-info:       #408FEC;
+  --dark-info:          #3576C2;
+
+  /* Accent colors */
+  --light-orange:       #FFF2EB;
+  --default-orange:     #FF5E00;
+  --dark-orange:        #A33C00;
+}

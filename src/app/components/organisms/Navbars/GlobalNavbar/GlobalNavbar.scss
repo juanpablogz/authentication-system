@@ -1,0 +1,19 @@
+.ase-navbar {
+  &__option {
+    color: var(--default-slate);
+    cursor: pointer;
+    font-weight: 600;
+    padding: 1.25rem;
+
+    &.active {
+      background-color: var(--default-snow);
+      border-bottom: 2px solid var(--black);
+      color: var(--black);
+      font-weight: 700;
+    }
+  }
+
+  &__add-hotspot-menu {
+    min-width: 450px;
+  }
+}

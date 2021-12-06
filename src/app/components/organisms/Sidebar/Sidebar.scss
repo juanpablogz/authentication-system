@@ -1,0 +1,10 @@
+.ase-sidebar {
+  .sidebar-content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0,0,0,0.15) transparent;
+    overflow-y: overlay;
+    flex: 1;
+  }
+}

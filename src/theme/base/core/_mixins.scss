@@ -1,0 +1,33 @@
+/************************************************/
+/*           360 STUDIO EDITOR MIXINS           */
+/************************************************/
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+@mixin screen($breakpoint) {
+  @if $breakpoint==sm {
+    @media (min-width: 640px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==md {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==lg {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==xl {
+    @media (min-width: 1280px) {
+      @content;
+    }
+  }
+}

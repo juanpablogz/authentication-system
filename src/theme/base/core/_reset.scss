@@ -1,0 +1,15 @@
+/***********************************************/
+/*           360 STUDIO EDITOR RESETS          */
+/***********************************************/
+
+body.ase-root {
+  padding: 0;
+  background-color: var(--default-snow);
+  color: var(--default-slate);
+  overflow-x: hidden;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0;
+}

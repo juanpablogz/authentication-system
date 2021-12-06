@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@src/*": ["./*"],
+      "@common/*": ["./app/common/*"],
+      "@config/*": ["./app/common/config/*"],
+      "@constants/*": ["./app/common/constants/*"],
+      "@contexts/*": ["./app/common/contexts/*"],
+      "@hooks/*": ["./app/common/hooks/*"],
+      "@interfaces/*": ["./app/common/interfaces/*"],
+      "@models/*": ["./app/common/models/*"],
+      "@showroom/*": ["./app/showroom/*"],
+      "@utils/*": ["./app/common/utils/*"],
+      "@validators/*": ["./app/common/validators/*"],
+
+      "@components/*": ["./app/components/*"],
+      "@atoms/*": ["./app/components/atoms/*"],
+      "@organisms/*": ["./app/components/organisms/*"],
+      "@primitives/*": ["./app/components/primitives/*"],
+
+      "@pages/*": ["./app/pages/*"],
+      "@routes/*": ["./app/routes/*"],
+      "@theme/*": ["./theme/*"],
+      "@services/*": ["./app/services/*"]
+    }
+  }
+}
